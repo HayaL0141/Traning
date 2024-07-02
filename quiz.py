@@ -18,8 +18,13 @@ if year == 1990:
 if year == 2026:
     print("I sent you a text message!")
 
+
 # ask the candidata a question
-activity = input( "How would you like to spend your evening ?\n(A) Reding a book\(B) Attending a party\n")
+activity = input( "How would you like to spend your evening ?\n(A) Reding a book\n(B) Attending a party\n")
 
 # print out which activity they chose
 print( f"You chose {activity}")
+
+# if they chose reading a book
+if activity == "A":
+    print("Nice choice!")
